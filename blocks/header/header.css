@@ -1,0 +1,14 @@
+@import url(__link-box/header__link-box.css);
+@import url(__link/header__link.css);
+@import url(__logo/header__logo.css);
+
+.header {
+    width: 91.5%;
+    max-width: 1184px;
+    min-width: 288px;
+    margin: auto;
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

@@ -1,0 +1,9 @@
+.place__paragraph-all {
+   /*технический блок*/
+}
+
+@media screen and (max-width: 375px) {
+    .place__paragraph-all {
+        max-width: calc(100% - (16px + 16px));
+    }
+}

@@ -1,0 +1,15 @@
+.place__link {
+    align-self: flex-start;
+    color: white;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    transition: 0.3s linear;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+}

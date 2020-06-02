@@ -1,0 +1,35 @@
+/*
+.places {
+    width: 90%;
+    margin: auto;
+    margin-top: 12px;
+}
+*/
+
+.places {
+/*    max-width: calc(100% - (148px + 148px));*/
+    max-width: 984px;
+    margin: 0 auto;
+    padding-top: 102px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        max-width: calc(100% - (48px + 48px));
+        padding-top: 117px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        max-width: calc(100% - (24px + 24px));
+        padding-top: 112px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .places {
+        padding-top: 66px;
+        max-width: 100%;
+    }
+}

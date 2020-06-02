@@ -1,0 +1,30 @@
+@import url(__title/intro__title.css);
+@import url(__text/intro__text.css);
+@import url(__list/intro__list.css);
+@import url(__list-number/intro__list-number.css);
+
+.intro {
+    padding-top: 50px;
+/*    max-width: calc(100% - (148px + 148px));*/
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: calc(100% - (48px + 48px));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: calc(100% - (24px + 24px));
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro {
+        padding-top: 64px;
+        max-width: calc(100% - (16px + 16px));
+    }
+}
